@@ -1,8 +1,7 @@
 using System.Collections.Generic;
-using UnityEngine;
 using System;
 
-public class StateMachine : MonoBehaviour
+public class StateMachine
 {
     private State _currentState;
     private Dictionary<Type, State> _states = new Dictionary<Type, State>();
